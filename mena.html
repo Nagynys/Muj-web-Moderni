@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="desription" content="Osobní portfolio programátora Jakub-Kuba-Šrámek">
+    <meta name="Keywords" content="portfolio, programátor, Jakub-Kuba-Šrámek">
+    <meta name="author" content="Jakub-Kuba-Šrámek">
+    <title>API Měna</title>
+
+    <link rel="shorcut icon" href="obrazky/ico.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4L0MVZ7GML"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4L0MVZ7GML');
+    </script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1>Jakub Šrámek</h1>
+            <small>Web Developer</small>
+        </div>
+
+        <section class="mainHeader">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <div class="fa fa-times" onclick="hideMenu()"></div>
+                    <ul>
+                        <li><a href="/#omne">O mně</a></li>
+                        <li><a href="/#skill">Dovednosti</a></li>
+                        <li><a href="/#projekty">Projekty</a></li>
+                        <li><a href="/#kontakt">Kontakt</a></li>
+                        <li><a href="api.html" class="api-tlacitko">API ISS</a>
+                            <ul class="subMenu">
+                                <div class="subMenuSecond">
+                                    <li><a href="mena.html" class="tlacitko">API&nbsp;Měna</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                    <div class="fa fa-bars" onclick="showMenu()"></div>
+            </nav>
+        </section>
+    </header>
+
+    <article>
+        <div class="space"></div>
+            <h1>Kurzy měn</h1>
+
+        <section>
+            <p id="banka"></p>
+            <p id="den"></p>
+            <p id="kurzy"></p>
+        </section>
+    </article>
+
+    <footer>
+        <p> &copy;Vytvořil: Jakub Šrámek 2024</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <script src="js/mena.js"></script>
+</body>
+</html>

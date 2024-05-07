@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="desription" content="Osobní portfolio programátora Jakub-Kuba-Šrámek">
+    <meta name="Keywords" content="portfolio, programátor, Jakub-Kuba-Šrámek">
+    <meta name="author" content="Jakub-Kuba-Šrámek">
+    <title>Programátor Jakub</title>
+
+    <link rel="shorcut icon" href="obrazky/ico.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4L0MVZ7GML"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KJ5309YNL2');
+    </script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1>Jakub Šrámek</h1>
+            <small>Web Developer</small>
+        </div>
+
+        <section class="mainHeader">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <div class="fa fa-times" onclick="hideMenu()"></div>
+                    <ul>
+                        <li><a href="#" class="jq--scroll-omne">O mně</a></li>
+                        <li><a href="#" class="jq--scroll-dovednosti">Dovednosti</a></li>
+                        <li><a href="#" class="jq--scroll-projekty">Projekty</a></li>
+                        <li><a href="#" class="jq--scroll-kontakt">Kontakt</a></li>
+                        <li><a href="api.html" class="api-tlacitko">API ISS</a>
+                            <ul class="subMenu">
+                                <div class="subMenuSecond">
+                                    <li><a href="mena.html" class="tlacitko">API&nbsp;Měna</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                    <div class="fa fa-bars" onclick="showMenu()"></div>
+            </nav>
+        </section>
+    </header>
+    
+    <article>
+        <!-- O mně -->
+        <section class="jq--omne" id="omne">
+            <div class="space"></div>
+
+            <h1>O&nbsp;mně</h1>
+            
+            <p>Jmenuji se Jakub Šrámek a mojí velkou ambicí je&nbsp;živit se jako programátor a&nbsp;tvořit webové stránky.</p>
+
+            <p>Po absolvování střední školy se&nbsp;zaměřením na&nbsp;informatiku a&nbsp;ekonomiku v Ledeč nad Sázavou jsem se&nbsp;specializoval na tvorbu webových stránek s&nbsp;použitím <strong>HTML</strong> a <strong>CSS</strong>. Dále jsem získal certifikáty pro efektivní práci s&nbsp;kancelářskými programy (Word, Excel).</p>
+
+            <p><img src="obrazky/avatar.jpg" class="avatar" alt="Programátor Jakub-Kuba"/></p>
+
+            <p>V roce 2023 jsem se rozhodl dát své kariéře nový směr a vylepšit své programátorské schopnosti. Absolvoval jsem intenzivní kurz od&nbsp;ITnetwork zaměřený na JavaScript a&nbsp;zároveň jsem si osvěžil znalosti HTML a CSS. Získal jsem základní povědomí o&nbsp;<strong>Git</strong> a&nbsp;<strong>GitHub</strong>.</p>
+
+            <p>Úspěšně jsem dokončil zkoušku, která zahrnovala tvorbu projektu a závěrečný test.</p>
+
+            <p>V roce 2024 jsem rozšířil své dovednosti v&nbsp;<strong>TailWindu</strong> a naučil se základy <strong>TypeScriptu</strong>.</p>
+
+            <p>Můj cíl je naplňovat svůj život práci, která mě opravdu baví. V&nbsp;programování vidím nejen budoucnost, ale i šanci na osobní rozvoj a&nbsp;lepší životní podmínky.</p>
+
+            <p>Pokud Vás zaujala má vize, neváhejte mě&nbsp;<a href="#" class="jq--scroll-kontakt" id="kontakt-o-mne" >KONTAKTOVAT</a>, rád se podělím o&nbsp;své&nbsp;zkušenosti.</p>   
+
+            <p><img src="./obrazky/avatar2.jpg" class="avatar" alt="Svoboda"></p>
+
+            <h2>Moje záliby</h2>
+                <p>Mimo programování rád relaxuji při rybaření a&nbsp;sportuji, zejména jezdím na&nbsp;kole, procházím se&nbsp;a&nbsp;cvičím.</p>
+
+            <h2>Projekty</h2>   
+                <p>Momentálně se aktivně věnuji rozšiřování svých znalostí v oblasti <strong>Reactu</strong>.</p>
+        </section>
+
+
+        <!-- Dovednosti -->
+        <section class="jq--dovednosti" id="skill">
+            <div class="space"></div>
+
+            <h1>Dovednosti</h1>
+
+            <table id="dovednosti">
+                <tr class="centrovany">
+                    <td>
+                        <a href="obrazky/dovednosti/html.jpg" data-lightbox="gallery-1" data-title="HTML a CSS">
+                            <img src="obrazky/dovednosti/html.jpg" alt="HTML a CSS">
+                        </a>
+                    </td>
+
+                    <td>                        
+                        <a href="obrazky/dovednosti/javascript.jpg" data-lightbox="gallery-1" data-title="JavaScript">
+                            <img src="obrazky/dovednosti/javascript.jpg" alt="JavaScript">
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="obrazky/dovednosti/react.jpg" data-lightbox="gallery-1" data-title="React">
+                            <img src="obrazky/dovednosti/react.jpg" alt="React">
+                        </a>
+                    </td>
+                </tr>
+
+                <tr class="centrovanyH2">
+                    <td>
+                        <h2>HTML a&nbsp;CSS</h2>
+                        <p>Znalosti ze střední škole, díky tomu umím tvořit webové stránky.</p>
+                    </td>
+                    
+                    <td>
+                        <h2>JavaScript</h2>
+                        <p>Vzdělávám se pomocí tutoriálů a&nbsp;videí. Dokáži tvořit jednoduché konzolové.</p>
+                    </td>
+
+                    <td>
+                        <h2>React</h2>
+                        <p>Vzdělávám se pomocí videí a&nbsp;stálým opakováním.</p>
+                    </td>
+                </tr>
+            </table>
+                <br>
+
+            <table id="dovednosti">  
+                <tr class="centrovany">                    
+                    <td>
+                        <a href="obrazky/dovednosti/vsc.png" data-lightbox="gallery-1" data-title="Visual Studio Code">
+                            <img src="obrazky/dovednosti/vsc.png" alt="Visual Studio Code">
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="obrazky/dovednosti/github.png" data-lightbox="gallery-1" data-title="GitHub">
+                            <img src="obrazky/dovednosti/github.png" alt="GitHub">
+                        </a>
+                    </td>
+
+                    <td>                        
+                        <a href="obrazky/dovednosti/git.png" data-lightbox="gallery-1" data-title="Git">
+                            <img src="obrazky/dovednosti/git.png" alt="Git">
+                        </a>
+                    </td>
+                </tr>                
+
+                <tr class="centrovanyH2">
+                    <td>
+                        <h2>VSC</h2>
+                        <p>Pomocí Visual Studio Code umím tvořit webové stránky pomocí HTML, CSS, JS a&nbsp;Reactu.</p>
+                    </td>
+
+                    <td>
+                        <h2>GitHub</h2>
+                        <p>Znalost základních příkazů gitHubu a&nbsp;nahrávání obashu na&nbsp;svůj web.</p>
+                    </td>
+
+                    <td>
+                        <h2>Git</h2>
+                        <p>Znalost základních příkazů Gitu.</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+
+            <table id="dovednosti">  
+                <tr class="centrovany">                    
+                    <td>
+                        <a href="obrazky/dovednosti/tailwind.jpg" data-lightbox="gallery-1" data-title="TailWind">
+                            <img src="obrazky/dovednosti/tailwind.jpg" alt="TailWind">
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="obrazky/dovednosti/bootstrap.jpg" data-lightbox="gallery-1" data-title="Bootstrap">
+                            <img src="obrazky/dovednosti/bootstrap.jpg" alt="Bootstrap">
+                        </a>
+                    </td>
+
+                    <td>                        
+                        <a href="obrazky/dovednosti/typescript.jpg" data-lightbox="gallery-1" data-title="TypeScript">
+                            <img src="obrazky/dovednosti/typescript.jpg" alt="TypeScript">
+                        </a>
+                    </td>
+                </tr>                
+
+                <tr class="centrovanyH2">
+                    <td>
+                        <h2>TailWind</h2>
+                        <p>Tvorba stránek pomocí tohoto nástroje.</p>
+                    </td>
+
+                    <td>
+                        <h2>Bootstrap</h2>
+                        <p>Základní znalosti.</p>
+                    </td>
+
+                    <td>
+                        <h2>TypeScript</h2>
+                        <p>Základní znalosti.</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Projekty -->
+        <section class="jq--projekty" id="projekty">
+            <div class="space"></div>
+            <h1>Projekty</h1>
+
+            <p>Jsem tu, abych Vám pomohl přivést Vaše webové projekty k životu.</p>
+            
+            <p>Níže můžete sledovat pár ukázkek mé&nbsp;dosavadní práce. S každým novým projektem se snažím zdokonalovat a&nbsp;rozšiřovat své portfolio a zkušenosti. Vaše vize je pro mě výzvou, které se rád věnuji.</p>
+
+            <div class="projektyObrazky">
+                <a href="https://github.com/Nagynys" target="_blank"><img src="./obrazky/projekty/github.png"  alt="GitHub"></a>
+
+                <a href="http://jakub-kuba.cz"><img src="./obrazky/ico.jpg"  alt="Jakub-Kuba-Šrámek	"></a>
+            </div>
+        </section>
+
+        <!-- Kontakty -->
+        <section class="jq--kontakt" id="kontakt">
+            <div class="space"></div>
+            <h1>Kontakt</h1>
+
+            <p>Chcete-li se dozvědět více, neváhejte a&nbsp;kontaktujte mě. Budu rád za každou zpětnou vazbu a možnou spolupráci.</p>
+
+            <h2>Email</h2>
+            <p><strong>jakiz.jakub@seznam.cz</strong></p>
+
+
+            <h2>LinkedIn</h2>
+            <a href="https://www.linkedin.com/in/jakub-%C5%A1r%C3%A1mek-32b93024a/" target="_blank">
+            <img src="obrazky/kontakt/linkedin.png" class="linkedin" alt="Linkedin"></a>
+        </section>
+    </article>
+
+    <footer>
+        <p>&copy;Vytvořil: Jakub Šrámek 2024</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
