@@ -16,7 +16,7 @@ if (window.location.pathname === '/index.html') {
 
 
 // Scrollování
-$(document).ready(() => {
+$(document).ready( () => {
 
     // Scroll to sections
     const scrollToSection = (sectionClass) => {
